@@ -1,0 +1,54 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#e4e7ee, #557cc1);
+    color: white;
+    padding: 12px;
+    width: 100%;
+
+}
+
+.laptop-view{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo-container{
+    color:#FFF;
+}
+
+.mobile-view{
+    display: none;
+}
+
+.logout-btn{
+    padding: 12px 24px 12px 24px;
+    border: none;
+    color: white;
+    background-color: #0c46aa;
+    border-radius: 6px;
+}
+
+@media screen and(max-width:567px){
+    .mobile-view{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .laptop-view{
+        display: none;
+    }
+}

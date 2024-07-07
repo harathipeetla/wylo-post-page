@@ -1,0 +1,44 @@
+.post-item-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px;
+    border-radius: 8px;
+    background-image: linear-gradient(#69a9e1, #032f6d);
+    color: #f7f8f8;
+}
+
+
+.travel-image{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.icons-conatiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.icon{
+    font-size: 32px;
+    font-weight: 500;
+    color: #f0f4f4;
+}
+
+.post-item-container .place{
+    color: #f6f8fa;
+    font-weight: bold;
+    align-self: flex-start;
+    font-size: 22px;
+}
+
+.post-item-container .notes{
+font-weight: 300;
+    
+}
